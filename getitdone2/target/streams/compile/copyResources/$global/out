@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/initialdata.yml,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/initialdata.yml)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/application.conf,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/evolutions,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/initialdata.yml~,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/initialdata.yml~)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/routes,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/evolutions/default,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/evolutions/default/1.sql~,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/evolutions/default/1.sql~)[0m
+[0m[[0mdebug[0m] [0m	(/home/roc/workspace/seba2/getitdone2/conf/evolutions/default/1.sql,/home/roc/workspace/seba2/getitdone2/target/scala-2.10/classes/evolutions/default/1.sql)[0m

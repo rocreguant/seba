@@ -1,0 +1,36 @@
+#categorybar {
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+#task {
+    background-color: #F9F9F9;
+    font-size: 25px;
+    padding: 0.3em;
+    margin: 0em auto;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+}
+
+#left3 {
+    background-color: #FFFFFF;
+    font-size: 25px;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    padding: 0.5em 0.2em;
+}
+
+#right3 {
+    font-size: 25px;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    background: linear-gradient(#fff, #f6f6f6);
+    transition: all 0.3s ease-out;
+}
+
+#right3 > h3 {
+    font-weight: bold;
+    color: #0083e8;
+}
+
+#right3 > h3, #right3 > h4 {
+    line-height: 1em;
+}

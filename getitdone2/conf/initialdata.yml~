@@ -1,0 +1,146 @@
+
+# Users
+
+users:
+
+    - !!models.User
+        email:      lorem@ipsum.com
+        name:       Loremipsum
+        password:   lorem
+        zipcode:    11111
+    
+    - !!models.User
+        email:      dolor@sit.com
+        name:       Dolorsit
+        password:   dolor
+        zipcode:    22222
+    
+    - !!models.User
+        email:      amet@consectetur.com
+        name:       Ametsectetur
+        password:   amet
+        zipcode:    33333
+
+# Categories
+
+categories:
+
+    - !!models.Category
+        id:          1
+        name:        Housework
+        description: Doing tasks around/in the house
+
+    - !!models.Category
+        id:          2
+        name:        Cleaning
+        description: Doing cleaning tasks
+
+    - !!models.Category
+        id:          3
+        name:        Shopping
+        description: Doing shopping tasks
+
+    - !!models.Category
+        id:          4
+        name:        Computer Help
+        description: Doing computer help tasks
+
+    - !!models.Category
+        id:          5
+        name:        Design
+        description: Doing design tasks
+
+    - !!models.Category
+        id:          6
+        name:        Something else
+        description: Doing tasks which do not fit in the other categories
+
+# Tasks
+
+tasks:
+
+    - !!models.Task
+        task_id:     1
+        title:      Change lightbulb
+        done:       false
+        description: Change lightbulb description
+        category:   1
+        zipcode:    11111
+        reward:     20.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+    - !!models.Task
+        task_id:     2
+        title:      Mow lawn
+        done:       false
+        description: Mow lawn description
+        category:   1
+        zipcode:    11111
+        reward:     25.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+    - !!models.Task
+        task_id:     3
+        title:      Buy dog food
+        done:       false
+        description: Buy dog food description
+        category:   3
+        zipcode:    11111
+        reward:     5.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+    - !!models.Task
+        task_id:     4
+        title:      Install Windows
+        done:       false
+        description: Install windows description
+        category:   4
+        zipcode:    11111
+        reward:     0.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+    - !!models.Task
+        task_id:     5
+        title:      Design SEBA website
+        done:       false
+        description: Design SEBA website
+        category:   5
+        zipcode:    11111
+        reward:     1000.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+    - !!models.Task
+        task_id:     6
+        title:      Make up website examples
+        done:       true
+        description: Make up website examples
+        category:   6
+        zipcode:    11111
+        reward:     100.00
+        due_date:    2014-11-18
+        assigned_to: !!models.User
+                        name: Loremipsum
+
+#	Requests
+
+requests:
+
+    - !!models.Request
+        request_id:     1
+        accepted:       false
+        message: Bla bla
+        task:   !!models.Task
+                 task_id: 2
+        requester: !!models.User
+                        name: Dolorsit
+

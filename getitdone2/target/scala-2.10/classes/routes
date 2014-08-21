@@ -1,0 +1,58 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                        controllers.Application.index
+
+# Basic navigation
+GET         /createtasks             controllers.CreateTasks.index
+POST        /viewtask                controllers.ViewTask.index
+GET         /viewuser                controllers.CreateUser.viewUser()
+POST        /register                controllers.CreateUser.viewUser()
+GET         /usertasks               controllers.ViewTask.userTasks()
+GET         /givefeedback            controllers.ViewFeedback.index()
+GET         /request                 controllers.ViewRequest.index()
+POST        /request                 controllers.ViewRequest.index()
+GET         /personalrequests        controllers.ViewRequest.selfRequests()
+POST        /showfeedback            controllers.ViewFeedback.showFeedback()
+GET         /showfeedback            controllers.ViewFeedback.showFeedback()
+
+# Search tasks
+POST        /searchtasks             controllers.SearchTasks.search()
+GET 		/viewtaskdetail/:id      controllers.ViewTask.getTask(id: Integer)
+
+# Categories
+GET         /all                     controllers.SearchTasks.searchAll()
+GET         /housework               controllers.SearchTasks.searchHousework()
+GET         /cleaning                controllers.SearchTasks.searchCleaning()
+GET         /shopping                controllers.SearchTasks.searchShopping()
+GET         /computerhelp            controllers.SearchTasks.searchComputerHelp()
+GET         /design                  controllers.SearchTasks.searchDesign()
+GET         /somethingelse           controllers.SearchTasks.searchSomethingElse()
+
+# Authentication + user management
+GET         /login                   controllers.Login.newLogin()
+POST        /login                   controllers.Login.login()
+GET         /logout                  controllers.Login.logout()
+GET         /editprofile             controllers.Application.editProfile()
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file            controllers.Assets.at(path="/public", file)
+
+# Global-Help
+GET         /help                    controllers.Application.help()
+GET         /faq                     controllers.Application.faq()
+GET         /support                 controllers.Application.support()
+GET         /contactus               controllers.Application.contactus()
+
+# Global- About Us
+GET         /privacypolicy           controllers.Application.privacypolicy()
+GET         /aboutus                 controllers.Application.aboutus()
+GET         /imprint                 controllers.Application.imprint()
+GET         /useofdata               controllers.Application.useofdata()
+
+# View Messages
+GET         /viewmessages            controllers.ViewMessages.viewmessages()
+POST        /viewmessages            controllers.ViewMessages.savemessages()
+

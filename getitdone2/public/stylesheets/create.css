@@ -1,0 +1,76 @@
+.wrap2 {
+    width: 200px;
+    max-width: 200px;
+    background-color: #F9F9F9;
+    padding: 0px 0.8em;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+}
+
+#error {
+    width: auto;
+    background-color: #FF5353;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+    color: #FFFFFF;
+    line-height: 1.5em;
+}
+
+.inputform {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 1.0em;
+    padding-left: 4em;
+    margin: 1.5em;
+    box-shadow: 0px 0px 7px 0px #CCCCCC;
+}
+
+.inputform > label {
+    font-size: 14px;
+}
+
+.inputform > input, .inputform > select{
+    display: block;
+    width: 30%;
+    margin-left: 1em;
+    margin-bottom: 1.2em;
+    font-size: 18px;
+}
+
+.inputform > p {
+    font-size: 20px;
+    width: 300px;
+    float: left;
+    margin-right: 3em;
+}
+
+.requestedtotal {
+    color: #FF5353;
+    font-size: 30px;
+    box-shadow: 0px 0px 1px 0px #000000;
+    border-radius: 5px;
+    padding: 0.7em;
+    margin: 0.5em;
+    margin-top: 1em;
+}
+
+.submitbox {
+    box-shadow: 0px 0px 1px 0px #000000;
+    border-radius: 5px;
+    padding: 0.7em;
+    margin: 0.9em;
+    margin-top: 2em;
+}
+
+#checkfee {
+    height: 45px;
+    font-size: 17px;
+    width: 130px;
+}
+
+#submittask {
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 30%;
+}

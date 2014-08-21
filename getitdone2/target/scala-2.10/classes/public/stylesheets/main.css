@@ -1,0 +1,332 @@
+html {
+    background-color: #e6e9e9;
+    background-image: linear-gradient(270deg,rgb(255,255,255) 0%,rgb(216,221,221) 100%);
+    background-image: -o-linear-gradient(270deg,rgb(255,255,255) 0%,rgb(216,221,221) 100%);
+    background-image: -moz-linear-gradient(270deg,rgb(255,255,255) 0%,rgb(216,221,221) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgb(255,255,255) 0%,rgb(216,221,221) 100%);
+    background-image: -ms-linear-gradient(270deg,rgb(255,255,255) 0%,rgb(216,221,221) 100%);
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body > section {
+    margin: 1.5em auto;
+    padding: 0em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: transparent;
+}
+
+body > header {
+        margin-top: 15px;
+        box-sizing: border-box;
+        z-index: 9;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.804);
+        -moz-box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.804);
+        box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.804);
+        box-shadow: 0px 0px 5px rgba(89, 89, 89, 0.804);
+}
+
+header > #logo {
+    padding: 0.4em 4em 0.1em 0em;
+    background-color: transparent;
+    max-width: 800px;
+    margin: 0em auto;
+}
+
+header > #line {
+    padding: 0;
+    margin: 0;
+    background-color: #4496fb;
+    height: 10px
+}
+
+header > #searchbar {
+    padding: 0.5em 0em 0.5em 0em;
+    background-color: transparent;
+    max-width: 800px;
+    margin: 0em auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a9a9a9;
+    text-align: right;
+}
+
+#textbar {
+    width: 53%;
+    border: 1px solid silver;
+    background: linear-gradient(#eee, #fff);
+    transition: all 0.3s ease-out;
+    padding: 2px;
+    color: #555;
+    border-radius: 7px;
+}
+
+#textbar:focus {
+    outline: none;
+    background-position: 0 -1.7em;
+}
+
+#categoryselector {
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 7px;
+    margin-left: -10px;
+}
+
+#searchbutton{
+    width: 62%;
+    border: 1px solid silver;
+    background: linear-gradient(#eee, #fff);
+    transition: all 0.3s ease-out;
+    padding: 3px;
+    color: #555;
+    border-radius: 7px;
+}
+
+
+body > footer {
+    background: #343434;
+    color:#FFFFFF;
+    text-align:left;
+    background-color: #3b3b3b;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    line-height: 0.7em;
+
+}
+
+footer * h1 {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: left;
+    line-height: 2.5em;
+}
+
+footer > #line {
+    padding: 0;
+    margin: 0;
+    background-color: #4496fb;
+    height: 5px
+}
+
+#wrap {
+    padding-top: 7em;
+    width: auto;
+    position: relative;
+    margin: 0em auto;
+    max-width: 800px;
+    align: center;
+}
+
+.left, .right {
+    width: 25%;
+    float: left;
+}
+
+.center {
+    float: left;
+    min-width: 25%;
+    width: auto;
+    position: relative;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3B3B3B;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+h1 > a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+h1 > a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+h3 {
+    padding-left: 0em;
+}
+
+p > a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+p > a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a {
+    color: #0083e8;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+#getitdone {
+    width: auto;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0em auto;
+    box-shadow: 0px 0px 3px 0px #CCCCCC;
+}
+
+#getitdone > strong {
+    color: #0088de;
+}
+
+#doingtasks {
+    width: auto;
+    font-size: 22px;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em auto 0em auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#doingtasks > #example {
+    margin: 2em auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a9a9a9;
+    padding: 1.3em;
+    background: linear-gradient(#eee, #fff);
+    border: 1px dashed rgba(0,0,0,0.2);
+}
+
+#doingtasks > h1 {
+    color: #c9c9c9;
+    display: inline-block;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+
+#doingtasks > h2 {
+    font-weight: bold;
+    color: #0088de;
+}
+
+#doingtasks > h4 {
+    color: #c9c9c9;
+}
+
+#categories {
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.0em;
+    margin: 0em auto;
+}
+
+#categories > h2{
+    padding: 0.5em;
+    color: #c9c9c9;
+}
+
+.signup {
+    position: relative;
+    z-index: 2;
+    margin: 5em 30% 0em 30%;
+
+}
+
+.signup:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    border-radius: 6px;
+    box-shadow:
+    inset 0 1px 0 rgba(0,0,0,0.1),
+    inset 0 -1px 0 rgba(255,255,255,0.7);
+    top: -6px; bottom: -6px;
+    right: -6px; left: -6px;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+}
+
+.modern {
+    display: inline-block;
+    margin: 15px;
+    width: 80%;
+    padding: 8px 15px;
+    background: #0088de;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 2px 2px rgba(0,0,0,0.3),
+    0 0 4px 1px rgba(0,0,0,0.2);
+
+    /* Font styles */
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,0.7);
+    text-align: center;
+}
+
+.modern:hover  { background: #008FFF; }
+
+.modern > h2 {
+    color: #FFFFFF;
+}
+
+#bottomlogo {
+    padding-top: 3em;
+}
+
+.depth {
+    border: 1px solid silver;
+    background: linear-gradient(#eee, #fff);
+    transition: all 0.3s ease-out;
+    padding: 3px;
+    color: #555;
+}
+
+.depth:focus {
+    outline: none;
+    background-position: 0 -1.7em;
+}
+
+.footercol {
+    padding-left: 2em;
+    padding-right: 2em;
+}
